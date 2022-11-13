@@ -1,0 +1,257 @@
+{
+  "id": "66264ebb-f9f8-464d-ae74-04e0745ca1d8",
+  "version": "2.0",
+  "name": "Homework_SeleniumIDE",
+  "url": "https://shafa.ua/",
+  "tests": [{
+    "id": "eb3e3f9e-68f7-4a96-b34e-dc8e350dbb40",
+    "name": "Test Case 1",
+    "commands": [{
+      "id": "a992a12e-88db-4df9-9137-d2335a6dc26d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1bfad7d-4e36-4ba1-b9d3-1441a125ab8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3UtsGtsqpTMliPoUdiJR",
+      "targets": [
+        ["css=.\\_3UtsGtsqpTMliPoUdiJR", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2980499c-8d9b-4f91-882a-d39d5994274a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Дитячий одяг",
+      "targets": [
+        ["linkText=Дитячий одяг", "linkText"],
+        ["css=.\\_1rlRG1KOyRJgDLQ8NHfj", "css:finder"],
+        ["xpath=//a[contains(@href, '/uk/kids')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Дитячий одяг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86bbc3d5-cb3e-4bea-aad6-5f54fd6b633c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div[2]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aefb1b8-e905-483e-8217-b96e772f866e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div[13]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd0705b2-71e4-4bbb-adab-2e658dbbc3e2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div[2]/div[3]/div/aside/div[2]/div[2]/div/div/div[3]/ul/li[15]/label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7a06fba-2fa7-41da-a32e-fed5ee3befca",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[1]/div[2]/div[3]/div/aside/div[2]/div[2]/div/div/div[4]/div/div/div[1]/div/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b15dd596-107b-4a54-af38-59da652641cc",
+      "comment": "",
+      "command": "store",
+      "target": "105",
+      "targets": [],
+      "value": "from"
+    }, {
+      "id": "9a472fb4-659d-406f-bdc8-e794951fbfdc",
+      "comment": "",
+      "command": "store",
+      "target": "215",
+      "targets": [],
+      "value": "to"
+    }, {
+      "id": "d063ab3c-c728-4e26-b02b-66e74f08fe06",
+      "comment": "",
+      "command": "type",
+      "target": "name=costFrom",
+      "targets": [
+        ["name=costFrom", "name"],
+        ["css=.b-filter__row:nth-child(1) .b-form-input", "css:finder"],
+        ["xpath=//input[@name='costFrom']", "xpath:attributes"],
+        ["xpath=//div[@id='filter-price']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${from}"
+    }, {
+      "id": "e120e8be-745f-4e3a-b8d0-2f63fe791e14",
+      "comment": "",
+      "command": "type",
+      "target": "name=costTo",
+      "targets": [
+        ["name=costTo", "name"],
+        ["css=.b-filter__row:nth-child(2) .b-form-input", "css:finder"],
+        ["xpath=//input[@name='costTo']", "xpath:attributes"],
+        ["xpath=//div[@id='filter-price']/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${to}"
+    }]
+  }, {
+    "id": "072b1640-4d61-4221-a8e6-65563a41b297",
+    "name": "Test Case 2",
+    "commands": [{
+      "id": "377f5031-0e2a-49be-a8ab-3d6c59ab8b4e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69036ccf-b07f-4c62-8095-7ba3160f9c3f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[3]/a[6]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64f89900-8c61-4522-af9e-b9ea0e90417a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[3]/a[6]",
+      "targets": [],
+      "value": "Дитячі товари"
+    }, {
+      "id": "0db0c5d1-e2e0-49ee-8d6b-8712ab4a5b4d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[3]/a[6]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ead0296-e2fe-40c9-8ffc-7b575cb7af14",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div[2]/div[3]/div/div/div[2]/div/ul[1]/li[1]/div/a/img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eb0cb99-090b-473a-848a-c911266b141c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[1]/div[2]/div[3]/div/div/div[2]/div[1]/div[2]/div[3]/div[1]/div/a/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9022ff72-82f7-4f40-a69b-0da63455a40e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[1]/div[2]/div[3]/div/div/div[2]/div[1]/div[2]/div[3]/div[1]/div/a/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e3b1a24-b158-4b9b-ad7c-6fd0c9a40a34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2mNyBzdVecgVSW12FE-i > path",
+      "targets": [
+        ["css=.\\_2mNyBzdVecgVSW12FE-i > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3ca84f8c-3dec-43de-9037-1273c8170328",
+    "name": "Test Case 3",
+    "commands": [{
+      "id": "6e6e193c-d018-43dd-ad88-59d4bd5d12fe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "862d338e-3692-4690-b310-8fa8406e5ebf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=/html/body/div[2]/div[2]/div[1]/div/div[1]/div/div/div[3]/div[2]/a[1]",
+      "targets": [],
+      "value": "Вхід"
+    }, {
+      "id": "f37039a8-09fd-429e-9c82-4edadf394b05",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[2]/div[2]/div[1]/div/div[1]/div/div/div[3]/div[2]/a[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "295a5555-ffc4-4485-8e33-f77fd6c568fc",
+      "comment": "",
+      "command": "store",
+      "target": "stranger",
+      "targets": [],
+      "value": "login"
+    }, {
+      "id": "a20c69d3-d0db-48ee-94ea-aad877531849",
+      "comment": "",
+      "command": "store",
+      "target": "123Zxcvb+",
+      "targets": [],
+      "value": "password"
+    }, {
+      "id": "b3eb47cc-ec69-41e9-84de-1b89b8ba5e95",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=/html/body/div/div[2]/div/div/div/div/div[2]/form/div[1]/input",
+      "targets": [],
+      "value": "${login}"
+    }, {
+      "id": "440652ab-4445-407f-9be3-4a9eddee6014",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=/html/body/div/div[2]/div/div/div/div/div[2]/form/div[2]/input",
+      "targets": [],
+      "value": "${password}"
+    }, {
+      "id": "5b281536-9482-4abc-8543-973074268d60",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div/div[2]/div/div/div/div/div[2]/form/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "708b6689-8bc8-406a-9942-c079c0613ea1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2mNyBzdVecgVSW12FE-i",
+      "targets": [
+        ["css=.\\_2mNyBzdVecgVSW12FE-i", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "88515e13-3cf5-43d1-859d-c1d2179bf153",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8135c0f7-2446-4d51-a273-305c824f0139",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb3e3f9e-68f7-4a96-b34e-dc8e350dbb40"]
+  }],
+  "urls": ["https://shafa.ua/"],
+  "plugins": []
+}
